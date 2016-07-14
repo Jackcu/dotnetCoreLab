@@ -3,16 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "commLib", "..\..\subProject\commLib\commLib.xproj", "{42ADAC4E-9D31-4DB9-8A9C-5862BFCF2410}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "commLib", "subProject\commLib\commLib.xproj", "{42ADAC4E-9D31-4DB9-8A9C-5862BFCF2410}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2CA7DBFD-1E7F-4ED8-BEF2-E974CC968891}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "commLibConsoleTest", "subProject\commLibConsoleTest\commLibConsoleTest.xproj", "{A7A819AA-6A8E-4392-8F43-1B26D9DB7D44}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "commLibConsoleTest", "..\..\subProject\commLibConsoleTest\commLibConsoleTest.xproj", "{A7A819AA-6A8E-4392-8F43-1B26D9DB7D44}"
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "commLibTest", "..\..\subProject\commLibTest\commLibTest.xproj", "{A37D29BB-D2BC-46A9-9785-A2E441A8A3EB}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "commLibTest", "subProject\commLibTest\commLibTest.xproj", "{A37D29BB-D2BC-46A9-9785-A2E441A8A3EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
